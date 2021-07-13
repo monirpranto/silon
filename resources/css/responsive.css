@@ -1,0 +1,94 @@
+@media screen and (max-width: 948px) {
+   .hero_items{
+       flex-basis: 100%;
+   }
+   .hero_items .header_banner{
+       max-width: 100%;
+       float: none;
+       padding: 5rem 2rem;
+   }
+   .hero_items img{
+       display: none;
+   }
+  }
+  @media screen and (max-width: 768px){
+   .header_top{
+       display: none;
+   }
+    .grid_4{
+        grid-template-columns: 1fr 1fr;
+    }
+   
+    .offer_grid{
+        grid-template-columns: 1fr;
+    }
+    .offer_griditems{
+    display: block;
+    }
+    .offer_details{
+         max-width: 100%;
+         position: relative;
+         padding: 2rem;
+    }
+    .primarry_menu{
+        display: none;
+    }
+    .mobile_menu_icon{
+        display: block;
+    }
+    .right_header_items{
+        padding: 3rem 0;
+    }
+  }
+  @media screen and (max-width: 480px){
+      .grid_3{
+          grid-template-columns: 1fr;
+      }
+      h1{
+        font-size: 5rem;
+        line-height: 7rem;
+        font-weight: 500;
+        margin: 0;
+        margin-bottom: 3rem;
+    }
+    h2{
+        font-family: 'Dancing Script', cursive;
+        font-size:4.5rem;
+        font-weight: 500;
+    }
+    h3{
+        font-size: 3rem;
+        text-transform: uppercase;
+        color: #000;
+        line-height: 4.32rem;
+        padding: 2.5rem 0rem;
+        margin-bottom: 5rem;
+    }
+    h4{
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+    .apple_store {
+        margin-top: .5rem;
+    }
+
+    }
+    
+   
+
+  @media screen and (max-width: 360px){
+      .grid_4{
+          grid-template-columns: 1fr;
+      }
+  }
+  @media screen and (max-width: 300px){
+      html{
+          font-size: 50%;
+      }
+  }
+  @media screen and (max-width: 250px){
+    html{
+        font-size: 40%;
+    }
+}
